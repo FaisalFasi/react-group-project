@@ -13,14 +13,16 @@ import Settings from "./pages/Settings";
 
 function App() {
   return (
-    <>
+    <div className="h-screen flex flex-col justify-stretch ">
       <Navbar />
-      <Route path="/">{<Landing />}</Route>
-      <Route path="/login">{<Login />}</Route>
-      <Route path="/register">{<Register />}</Route>
-      <Route path="/search">{<Search />}</Route>
-      <Route path="/settings">{<Settings />}</Route>
-    </>
+      <section id="main-section" className="bg-gray-200 p-5 w-full">
+        <Route path="/">{<Landing />}</Route>
+        <Route path="/login">{<Login />}</Route>
+        <Route path="/register">{<Register />}</Route>
+        <Route path="/search">{<Search />}</Route>
+        <Route path="/settings">{<Settings />}</Route>
+      </section>
+    </div>
   );
 }
 

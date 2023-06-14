@@ -1,7 +1,7 @@
 export default function Landing() {
   return (
-    <>
-      <h1 className="text-2xl font-normal p-5"> I'm Landing Page</h1>
-    </>
+    <div className="h-screen text-2xl font-normal p-5">
+      <h1> I'm Landing Page</h1>
+    </div>
   );
 }

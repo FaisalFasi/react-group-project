@@ -10,7 +10,7 @@ const links = [
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between w-screen p-4 bg-red-300">
+    <nav className="flex justify-between w-full p-4 bg-red-300">
       <Link href="/">
         <h1 className="cursor-pointer font-normal text-2xl">COMPANY_LOGO</h1>
       </Link>
